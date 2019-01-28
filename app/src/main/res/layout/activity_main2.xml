@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/btnmodi"
+        android:layout_width="189dp"
+        android:layout_height="213dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/hand"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="84dp"/>
+
+    <ImageButton
+        android:id="@+id/btnVisualizador"
+        android:layout_width="220dp"
+        android:layout_height="213dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/visua"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/textestado"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center"
+        android:text="MODIFICAR ESTADO DEL PEDIDO" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center"
+        android:text="ADMINISTRAR" />
+
+</LinearLayout>
+
+</LinearLayout>

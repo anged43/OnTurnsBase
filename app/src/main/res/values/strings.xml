@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OnTurnsBase</string>
+    <string name="username">Ingrese Correo</string>
+    <string name="password">Ingrese Contraseña</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign up now</string>
+    <string name="nombres">Nombres</string>
+    <string name="correo">Correo</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="confirContra">Confirmar Contraseña</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="inicie">INICIAR SESION</string>
+    <string name="regitrese">REGISTRO</string>
+    <string name="scanner">SCANNER</string>
+    <string name="visualizar">VISUALIZAR</string>
+    <string name="siguiente">SIGUIENTE</string>
+
+</resources>

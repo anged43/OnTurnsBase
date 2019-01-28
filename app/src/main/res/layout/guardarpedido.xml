@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guardar_pedido">
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn1"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-82dp"
+        android:layout_marginTop="241dp"
+        android:ems="10"
+        android:hint="número cédula del cliente"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="363dp"
+        android:text="Registrar"
+        app:layout_constraintStart_toStartOf="@+id/txt1"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <Spinner
+        android:id="@+id/spinorden"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="64dp"
+        android:text="Orden del cliente" />
+
+    <TextView
+        android:id="@+id/txtenproceso"
+        android:layout_width="135dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="52dp"
+        android:text="" />
+
+    <Switch
+        android:id="@+id/estadoswitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtenproceso"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="89dp"
+        android:onClick="Onclick"
+        android:text="Estado:  " />
+
+</RelativeLayout>
